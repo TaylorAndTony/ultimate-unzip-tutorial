@@ -9,13 +9,6 @@ h2 {
     margin-bottom: 2rem;
 }
 
-p {
-    font-size: 18px;
-    line-height: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-indent: 2rem;
-}
 
 h5 {
     font-size: x-large;
@@ -84,6 +77,14 @@ body {
     margin-top: 2rem;
 }
 
+.text-area p {
+    font-size: 18px;
+    line-height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-indent: 2rem;
+}
+
 .text-img {
     width: 80%;
     max-width: 800px;
@@ -107,6 +108,12 @@ body {
     font-weight: bold;
     padding: 8px 28px;
     font-size: large;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
