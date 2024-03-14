@@ -1,0 +1,116 @@
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+h2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 18px;
+    line-height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-indent: 2rem;
+}
+
+h5 {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+body {
+    background-image: linear-gradient(to top, #edf3ff 0%, #ffffff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.under-h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.big-img {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+}
+
+.big-button {
+    width: 100%;
+    max-width: 800px;
+    font-size: 2rem;
+    margin-top: 2rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.big-button > button {
+    width: 70%;
+    min-width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.big-button > a {
+    width: 70%;
+    min-width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.text-area {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.text-img {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.grid-card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 1s ease-in-out;
+}
+
+.card-body > a {
+    font-weight: bold;
+    padding: 8px 28px;
+    font-size: large;
+}
+
+
+.light-shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
