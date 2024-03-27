@@ -16,14 +16,14 @@
         display: grid;
         /* 2 by 2 grid */
         grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
+        gap: 2rem;
         padding: 1rem;
-        max-width: 1500px;
+        max-width: 1200px;
         margin: 0 auto;
     }
 
     .grid-card {
-        max-width: 500px;
+        max-width: 400px;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
@@ -39,22 +39,40 @@
     <h1>2 需要安装压缩软件</h1>
     <div class="under-h1">下列软件均为软件官网提供</div>
     <div class="grid-layout">
+        
         <div class="card grid-card" >
             <img src="../img/bandizip.jpg" class="card-img-top faint-img" alt="...">
             <div class="card-body">
-                <h5 class="card-title">【推荐】BandiZip</h5>
-                <p class="card-text">全中文，有广告，免费版+可选付费版。早期版本免费、无广告。</p>
-                <p class="card-text">是最适合零基础小白快速上手的简单软件。</p>
+                <h5 class="card-title"><span style="color: red">推荐</span> BandiZip</h5>
+                <p class="card-text">全中文，有广告。</p>
                 <a href="https://www.bandisoft.com/bandizip/" target="_blank" class="btn btn-primary">推荐给小白，前往下载</a>
             </div>
         </div>
 
         <div class="card grid-card" >
+            <img src="../img/peazip.jpg" class="card-img-top faint-img" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><span style="color: red">推荐</span> PeaZip</h5>
+                <p class="card-text">英文网页。适配 win 11。</p>
+                <a href="https://peazip.github.io/peazip-64bit.html" target="_blank" class="btn btn-primary">推荐给小白，前往下载</a>
+            </div>
+        </div>
+
+        <div class="card grid-card" >
+            <img src="../img/nanazip.jpg" class="card-img-top faint-img" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><span style="color: red">推荐</span> NanaZip</h5>
+                <p class="card-text">微软商店提供下载。适配 Win 11。</p>
+                <a href="https://apps.microsoft.com/detail/9n8g7tscl18r?hl=zh-cn&gl=CN" target="_blank" class="btn btn-primary">推荐给大牛，前往下载</a>
+            </div>
+        </div>
+
+
+        <div class="card grid-card" >
             <img src="../img/winrar.jpg" class="card-img-top faint-img" alt="...">
             <div class="card-body">
-                <h5 class="card-title">WinRar</h5>
-                <p class="card-text">老牌软件，英文网页，有广告，个人免费（就是那个“无限期试用”的经典软件）</p>
-                <p class="card-text">注意如果是自己去搜索这个软件下载的话，不要下载成<strong>国内特供版</strong>哦</p>
+                <h5 class="card-title"><span style="color: blueviolet;">老牌</span> WinRar</h5>
+                <p class="card-text">老牌软件，英文网页，个人免费</p>
                 <a href="https://www.win-rar.com/start.html?&L=0" target="_blank" class="btn btn-primary">前往下载（推荐自己找破解版）</a>
             </div>
         </div>
@@ -62,12 +80,22 @@
         <div class="card grid-card" >
             <img src="../img/7zip.jpg" class="card-img-top faint-img" alt="...">
             <div class="card-body">
-                <h5 class="card-title">7-Zip</h5>
-                <p class="card-text">英文网页，免费，无广告，最自由的压缩软件。</p>
-                <p class="card-text">7-Zip 是由 Igor Pavlov 开发的免费开源文件归档应用程序。</p>
+                <h5 class="card-title"><span style="color: blueviolet;">开源</span> 7-Zip</h5>
+                <p class="card-text">英文网页，无广告，最自由的<strong>免费开源</strong>压缩软件。推荐有计算机基础的下载。</p>
                 <a href="https://7-zip.org/" target="_blank" class="btn btn-primary">推荐给大牛，前往下载</a>
             </div>
         </div>
+
+
+        <div class="card grid-card" >
+            <img src="../img/1234.jpg" class="card-img-top faint-img" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">2345 压缩</h5>
+                <p class="card-text"><strong>一句话：千万别用。一边起进程弹窗低俗广告，一边宣传无广告</strong></p>
+                <button class="btn btn-primary" style="font-weight: bold;font-size: large;" onclick="use2345()">千万别用</button>
+            </div>
+        </div>
+
     </div>
 
     <div class="big-button">
@@ -92,6 +120,9 @@
     <script>
         function goback() {
             window.history.back();
+        }
+        function use2345() {
+            alert("千万别用 2345 压缩，一边起进程弹窗低俗广告，一边宣传无广告");
         }
     </script>
 
